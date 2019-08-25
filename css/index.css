@@ -71,31 +71,49 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+/* _________HEADER______________ */
+/* _________HEADER______________ */
+/* _________HEADER______________ */
+
 header {
 	/* border: 5px dashed orange; */
 	padding: 20px 20px 20px;
 
 }
 
-@media (max-width: 800){
-	header{
-		display: flex;
-		flex-direction: column;
+	@media (max-width: 800){
+		header {
+			display: flex;
+			flex-direction: column;
+		}
 	}
-}
 
-@media (max-width: 500){
-	header{
-		display: flex;
-		flex-direction: column;
+	@media (max-width: 500){
+		header {
+			display: flex;
+			flex-direction: column;
+		}
 	}
-}
 
 
 nav {
 	/* border: 3px solid red; */
 	display: inline-block;
 	width: 75%;
+}
+
+@media (max-width: 800){
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 500){
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
 }
 		
 nav a {
@@ -104,6 +122,12 @@ nav a {
 	padding: 0 25px 0px;
 	/* border: 3px solid blue; */
 }
+
+
+
+/* _________INTRO CONTAINER______________ */
+/* _________INTRO CONTAINER______________ */
+/* _________INTRO CONTAINER______________ */
 
 .intro-container {
 	text-align: center;
@@ -137,6 +161,10 @@ nav a {
 	font-family: 'Titillium Web';
 }
 
+/* _________BODY______________ */
+/* _________BODY______________ */
+/* _________BODY______________ */
+
 header p {
 	text-align: center;
 	border: 1px solid black;
@@ -168,11 +196,13 @@ header p {
 	width: 49%;
 }
 
+
+/* MIDDLE */
 .middle-img {
 	display: block;
 	width: 100%;
 }
-
+/* BOTTOM CONTENT */
 .bottom-content {
 	border-bottom: 1px solid black;
 	padding: 20px 0 30px;
@@ -195,10 +225,11 @@ header p {
 	display: inline-block;
 	width: 32%;
 }
-
+/* CONTACT */
 .contact-content {
 	margin-top: 30px;
 }
+/* FOOTER */
 footer p {
 	text-align: center;
 }
