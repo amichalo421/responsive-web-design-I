@@ -77,11 +77,27 @@ header {
 
 }
 
+@media (max-width: 800){
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 500){
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
 nav {
 	/* border: 3px solid red; */
 	display: inline-block;
 	width: 75%;
 }
+		
 nav a {
 	color: grey;
 	text-decoration: none;
