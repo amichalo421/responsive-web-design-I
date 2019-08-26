@@ -116,6 +116,7 @@ nav {
 	@media (max-width: 500px){
 		nav {
 			padding: 2%;
+			border: 2px gray;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-evenly;
@@ -135,8 +136,8 @@ nav a {
 	@media (max-width: 500px){
 		nav a {
 			padding: 2%;
-			border-size: 3px;
-			border-color: gray;
+			border: 3px solid gray;
+			
 			
 		}
 	}
@@ -149,10 +150,8 @@ nav a {
 
 .intro-container {
 	text-align: center;
-	/* border: 3px solid green; */
 }
 .intro  {
-	/* border: 4px dashed red; */
 	display: inline-block;
 	width: 450px;
 	text-align: center;
@@ -161,26 +160,20 @@ nav a {
 
  .intro h1 {
 	font-size: 50pt;
-	/* border: 1px dashed red; */
 }  
 
 
 .introimg {
 	width: 30%;
-	/* border: 1px dashed red; */
 	display: inline-block;
-	/* TRBL*/
 	padding: 20px 10px 10px 20px;
 }
 
 	@media (max-width: 800px){
 		.introimg {
 			display: none;
-
 		}
 	}
-
-	
 
 .intro button {
 	padding: 5px 40px 5px;
@@ -195,25 +188,25 @@ nav a {
 header p {
 	text-align: center;
 	border: 1px solid black;
-	width: 150px;
+	width: auto;
 }
 
-@media (max-width: 800px){
-	header p {
-		display: flex;
-		flex: 1 0 auto;
+	@media (max-width: 800px){
+		header p {
+			display: flex;
+			flex: 1 0 auto;
 
+		}
 	}
-}
 
-@media (max-width: 500px){
-	header p {
-		padding: 2%;
-		width: 80%;
-		display: flex;
-		flex: 1 0 auto;
+	@media (max-width: 500px){
+		header p {
+			padding: 2%;
+			width: 80%;
+			display: flex;
+			flex: 1 0 auto;
+		}
 	}
-}
 	
 .codeimg {
 	width: 30%;
@@ -265,39 +258,49 @@ header p {
 
 .top-content .about {
 	display: inline-block;
-	/* border: 1px solid red; */
 	width: 49%;
 }
 
-@media (max-width: 500px){
-	.top-content .about{
-		padding: 5% 5%;
+	@media (max-width: 500px){
+		.top-content .about{
+			padding: 5% 5%;
+		}
 	}
-}
 
 
 /* MIDDLE */
+
+.midimgcont{
+	display: none;
+	background-color: gray;
+}
+
 .middle-img {
-	display: block;
 	width: 100%;
 }
 
-@media (max-width: 800px){
-	.middle-img {
-		size: 50% 50%;
-		display: flex;
-		flex: 0 1 auto;
+	/* @media (max-width: 800px){
+		.middle-img {
+			size: 50% 50%;
+			display: flex;
+			flex: 0 1 auto;
 
+		}
 	}
-}
 
-@media (max-width: 500px){
-	.middle-img {
-		width: 100%
-		display: flex;
-		flex: 0 1 auto;
-	}
-}
+	@media (max-width: 500px){
+		.middle-img {
+			width: 20%
+			display: flex;
+			flex: 0 1 auto;
+		}
+	} */
+
+	@media (max-width: 800px){
+		.middle-img {
+			display: none;
+		}
+
 /* BOTTOM CONTENT */
 .bottom-content {
 	border-bottom: 1px solid black;
