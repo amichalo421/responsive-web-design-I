@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	justify-content: space-evenly; 
 	align-items: center;
-	margin: 50px 50px 50px 50px;
+	margin: 5px 50px 5px 50px;
 }
 
 .container1{
@@ -94,8 +94,8 @@ h1, h2, h3, h4, h5 {
 	flex-direction: collumn;
 	justify-content: space-evenly; 
 	align-items: center;
-	padding: 20px;
-	margin: 10px;
+	padding: 5px 20px 5px 20px;
+	margin: 10px 10px 10px 10px;
 }
 	.container1 a {
 		text-decoration: none;
@@ -246,6 +246,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: center; 
 	align-items: flex-start;
 	padding-left: 20px;
+	padding-bottom: 30px;
 }
 
 	section {
