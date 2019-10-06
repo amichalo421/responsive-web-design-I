@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 
 
 .containerA {
-	background-color:red;
+	/* background-color:red; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly; 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container1{
-	background-color: lightblue;
+	/* background-color: lightblue; */
 	width: 100%;
 	display: flex; 
 	flex-direction: collumn;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 800px) {
 	.container1{
-		background-color: violet;
+		/* background-color: violet; */
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 500px) {
 	.container1{
-		background-color: burlywood;
+		/* background-color: burlywood; */
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 500px) {
 	.container1{
-		background-color: burlywood;
+		/* background-color: burlywood; */
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5 {
 
 	
 	.navigation {
-	background-color: bisque;
+	/* background-color: bisque; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
@@ -126,7 +126,8 @@ h1, h2, h3, h4, h5 {
 
 	@media (max-width: 800px) {
 		.navigation{
-			background-color: yellow;
+			width: 100%;
+			/* background-color: yellow; */
 			display: flex;
 			flex-direction: row;
 			justify-content: space-evenly;
@@ -136,11 +137,12 @@ h1, h2, h3, h4, h5 {
 
 	@media (max-width: 500px) {
 		.navigation{
-			background-color: white;
+			/* background-color: white; */
 			display: flex;
 			flex-direction: column;
 			justify-content: space-evenly;
 			align-items: center;
+			border-top; 1px solid gray;
 		}
 	}
 
@@ -150,26 +152,65 @@ h1, h2, h3, h4, h5 {
 		padding: 10px 20px 10px 20px;
 	}
 
+	@media (max-width: 800px) {
+		.container1 a {
+			/* padding: 10px 20px 10px 20px;
+			margin: 0px 5px 0px 5px; */
+			/* padding: 1em 2em 1em 2em;
+			margin: 0em 3em 0em 3em; */
+			/* padding: 10px 20px 10px 20%; */
+			margin: 0px 2% 0px 2%;
+		}
+	}
+
 	@media (max-width: 500px) {
 		.container1 a {
-			width: vp;
-			border-top; 2px solid black;
-			border-bottom: 2px solid black;
+			/* width: vp;
+			padding: 10px 100% 10px 100%; */
+			padding: 10px 500% 10px 500%;
+			border-top; 1px solid gray;
+			border-bottom: 1px solid gray;
 		}
 	}
 
 
 	.logo{
-	background-color: beige;
+	/* background-color: beige; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
 	}
 
+	@media (max-width: 800px){
+		.logo{
+			/* background-color: beige; */
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly; 
+			align-items: center;
+			/* width: vp; */
+			padding: 10px 500px 30px 500px;
+			/* border-bottom: 1px solid gray; */
+			}
+		} 
+
+	@media (max-width: 500px){
+	.logo{
+		/* background-color: beige; */
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly; 
+		align-items: center;
+		/* width: vp; */
+		padding: 10px 500px 10px 500px;
+		border-bottom: 1px solid gray;
+		}
+	} 
+
 
 	.containerimg {
-	background-color: turquoise;
+	/* background-color: turquoise; */
 	display: flex;
 	padding: 10px 10px 10px 10px;
 	}
@@ -187,7 +228,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.mdmgcnt h1 .middle-img {
-		background-color: pink;
+		/* background-color: pink; */
 		text-align: center;
 		font-size: 50pt;
 		width: 100%;
@@ -204,7 +245,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 .container2{
-	background-color: purple;
+	/* background-color: purple; */
 	color: black;
 	width: 100%;
 	display: flex;
@@ -220,7 +261,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	justify-content: space-evenly; 
 	align-items: center;
-	padding: 30px 30px 30px 30px;
+	padding: 20px 30px 10px 30px;
 	}
 
 	#title p{
@@ -231,7 +272,7 @@ h1, h2, h3, h4, h5 {
 	.get-started a {
 		font-family: 'Titillium Web', sans-serif;
 		color: black;
-		padding: 10px;
+		padding: 5px 30px 5px 30px;
 		border: 1px solid black;
 		text-decoration: none;
 	}
@@ -243,7 +284,7 @@ h1, h2, h3, h4, h5 {
 
 
 .container3{
-	background-color: green;
+	/* background-color: green; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around; 
@@ -253,12 +294,24 @@ h1, h2, h3, h4, h5 {
 	
 
 .container4{
-	background-color: yellow;
+	/* background-color: yellow; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items:center;
 	border-top: 2px solid black;
+}
+
+@media  (max-width: 500px) {
+.container4{
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly; 
+	align-items:center;
+	border-top: 2px solid black;
+	font-size: -10%;
+}
 }
 
 	.features {
@@ -270,7 +323,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 .container5{
-	background-color: turquoise;
+	/* background-color: turquoise; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
@@ -279,13 +332,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .container6{
-	background-color: cornflowerblue;
+	/* background-color: cornflowerblue; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
 	border-bottom: 2px solid black;
 }
+
+@media  (max-width: 500px) {
+	.container6{
+		/* background-color: yellow; */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly; 
+		align-items:center;
+		border-top: 2px solid black;
+		font-size: -10%;
+	}
+	}
 
 	.services {
 		margin: 20px;
@@ -300,7 +365,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 .container7{
-	background-color: rgb(0, 238, 255);
+	/* background-color: turqoise; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -310,12 +375,9 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 30px;
 }
 
-	section {
-
-	}
 
 	.container8{
-		background-color: brown;
+		/* background-color: brown; */
 		display: flex;
 		flex-direction: row;
 		justify-content: center; 
@@ -358,7 +420,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .mdbx{
-	background-color: lightgray;
+	/* background-color: lightgray; */
 	border: 2px solid black;
 	padding: 20px 20px 30px 30px;
 	margin: 10px;
@@ -385,7 +447,7 @@ h1, h2, h3, h4, h5 {
 
 }
 .containerft{
-	background-color: brown;
+	/* background-color: brown; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
